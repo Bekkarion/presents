@@ -1,0 +1,212 @@
+:root {
+  --active-color: purple;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 6rem;
+  background-color: var(--active-color);
+}
+
+header nav {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  display: flex;
+  align-items: center;
+  line-height: 5rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header nav .logo a {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+  margin-left: 1rem;
+}
+
+header nav .checkbtn {
+  font-size: 1.5rem;
+  color: white;
+  display: none;
+}
+
+header nav #check {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  line-height: 5rem;
+}
+
+header nav ul li a {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: gray;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+main .s1 {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 3rem;
+  margin-top: 6rem;
+}
+
+main .s1 .right {
+  background-image: url(https://as2.ftcdn.net/v2/jpg/04/58/57/69/1000_F_458576977_cbnBB2TeCCM5bishRhHhLjTD6vXKVz5o.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main .s1 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .s1 .left .banner {
+  width: 100%;
+  height: 25rem;
+  background-color: var(--active-color);
+}
+
+main .s1 .left .banner h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+main .s1 .left .banner p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  max-width: 90%;
+  margin-left: 1rem;
+}
+
+main .s1 .left .banner .button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid white;
+}
+
+main .s1 .left .banner .button a {
+  color: white;
+  text-decoration: none;
+}
+
+main .s1 .left .banner .button a:hover {
+  color: black;
+}
+
+main .second {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 100px;
+}
+
+main .second .links {
+  background-image: url(https://img.freepik.com/fotos-kostenlos/sataplia-hoehle-in-georgia_155003-6173.jpg?w=900&t=st=1681393013~exp=1681393613~hmac=b719c52690bd25abea731c6b6611ecfffbec5136c2593c7ccbc2e91a46fecacc);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+main .second .rechts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .second .rechts .banner2 {
+  width: 100%;
+  height: 25rem;
+  background-color: var(--active-color);
+}
+
+main .second .rechts .banner2 h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+main .second .rechts .banner2 p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  max-width: 90%;
+  margin-left: 1rem;
+}
+
+main .second .rechts .banner2 .button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid white;
+}
+
+main .second .rechts .banner2 .button a {
+  color: white;
+  text-decoration: none;
+}
+
+main .second .rechts .banner2 .button a:hover {
+  color: black;
+}
